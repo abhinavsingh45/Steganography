@@ -6,7 +6,7 @@ from PyQt6.QtWidgets import QApplication, QWidget, QVBoxLayout, QPushButton, QLa
 # Default input and output paths
 IMAGE_PATH = r"C:\Users\Lenovo\Desktop\pexels-anjana-c-169994-674010.jpg"
 OUTPUT_PATH = r"C:\Users\Lenovo\Desktop\encryptedImage.png"
-
+ 
 class EncryptGUI(QWidget):
     def __init__(self):
         super().__init__()
